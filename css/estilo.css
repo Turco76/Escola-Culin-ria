@@ -1,0 +1,60 @@
+body {
+    font-family: 'Georgia', serif; 
+    line-height: 1.6;
+    color: #333;
+}
+
+.text-primary {
+    color: #d32f2f !important; 
+}
+
+.bg-primary {
+    background-color: #d32f2f !important;
+}
+
+.btn-primary {
+    background-color: #d32f2f;
+    border-color: #d32f2f;
+}
+
+.btn-primary:hover {
+    background-color: #b71c1c;
+    border-color: #b71c1c;
+}
+
+.card {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 25px rgba(0,0,0,0.15) !important;
+}
+
+.navbar-brand {
+    font-size: 1.5rem;
+}
+
+.sticky-top {
+    position: sticky;
+    top: 0;
+    z-index: 1020;
+}
+
+.display-1 {
+    font-size: 4rem; 
+}
+
+@media (max-width: 768px) {
+    .display-4 {
+        font-size: 2.5rem;
+    }
+    
+    .hero img {
+        max-height: 300px;
+    }
+}
+
+a, .btn {
+    transition: all 0.3s ease;
+}
